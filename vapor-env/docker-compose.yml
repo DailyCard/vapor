@@ -7,6 +7,11 @@ services:
         image: ${CURRENT_VAPOR_IMG}
         ports:
             - 8080:8080
+        environment:
+            MYSQL_DB: vapor
+            MYSQL_HOST: mysql
+            MYSQL_PASSWORD: vapor
+            MYSQL_USER: vapor
         volumes:
             - ${HOST_ROOT}:${CONTAINER_ROOT}
         working_dir: ${CONTAINER_ROOT}
@@ -26,6 +31,18 @@ services:
         networks:
             - bx-net
 
+    mysql:
+        image: ${CURRENT_DB_IMG}
+        command: --default-authentication-plugin=caching_sha2_password
+        ports:
+            - ${HOST_DB_PORT}:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: vapor
+            MYSQL_DATABASE: vapor
+            MYSQL_USER: vapor
+            MYSQL_PASSWORD: vapor
+        networks:
+            - bx-net
 networks:
     bx-net:
         driver: bridge
