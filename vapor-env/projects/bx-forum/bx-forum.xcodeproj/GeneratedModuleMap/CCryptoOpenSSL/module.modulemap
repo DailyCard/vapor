@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/roni/Desktop/github/vapor/vapor-env/projects/bx-forum/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}
