@@ -1,0 +1,4 @@
+module CNIOOpenSSL {
+    umbrella "/Users/roni/Desktop/github/vapor/vapor-env/projects/route-basics/.build/checkouts/swift-nio-ssl/Sources/CNIOOpenSSL/include"
+    export *
+}
