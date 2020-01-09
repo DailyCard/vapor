@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19A583" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Episode" representedClassName="Episode" syncable="YES" codeGenerationType="class">
+        <attribute name="coverUrl" attributeType="String"/>
+        <attribute name="duration" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="level" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="summary" attributeType="String"/>
+        <attribute name="tagString" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="type" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="favourite" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="FavouriteEpisode"/>
+        <relationship name="freeEpisode" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="FreeEpisode"/>
+        <relationship name="history" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="WatchingHistory"/>
+        <relationship name="recentUpdate" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="RecentUpdate"/>
+        <relationship name="watchLater" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="WatchLaterEpisode"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="FavouriteEpisode" representedClassName="FavouriteEpisode" syncable="YES" codeGenerationType="class">
+        <attribute name="episodeId" attributeType="Integer 64" usesScalarValueType="YES"/>
+        <relationship name="episode" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Episode"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="episodeId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="FreeEpisode" representedClassName="FreeEpisode" syncable="YES" codeGenerationType="class">
+        <attribute name="episodeId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="episode" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Episode"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="episodeId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="LearningPath" representedClassName="LearningPath" syncable="YES" codeGenerationType="class">
+        <attribute name="coverUrl" attributeType="String"/>
+        <attribute name="summary" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="totalDuration" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="totalEpisodes" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="title"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="RecentUpdate" representedClassName="RecentUpdate" syncable="YES" codeGenerationType="class">
+        <attribute name="episodeId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="episode" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Episode"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="episodeId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="WatchingHistory" representedClassName="WatchingHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="episodeId" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="progress" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="episode" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Episode"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="episodeId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="WatchLaterEpisode" representedClassName="WatchLaterEpisode" syncable="YES" codeGenerationType="class">
+        <attribute name="episodeId" attributeType="Integer 64" usesScalarValueType="YES"/>
+        <relationship name="episode" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Episode"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="episodeId"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="FavouriteEpisode" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Episode" positionX="-54" positionY="-9" width="128" height="253"/>
+        <element name="WatchingHistory" positionX="-36" positionY="9" width="128" height="103"/>
+        <element name="LearningPath" positionX="-18" positionY="27" width="128" height="118"/>
+        <element name="WatchLaterEpisode" positionX="0" positionY="45" width="128" height="73"/>
+        <element name="FreeEpisode" positionX="18" positionY="63" width="128" height="73"/>
+        <element name="RecentUpdate" positionX="36" positionY="81" width="128" height="73"/>
+    </elements>
+</model>
