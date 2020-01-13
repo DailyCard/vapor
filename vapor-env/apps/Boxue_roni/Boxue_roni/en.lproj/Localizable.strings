@@ -1,0 +1,74 @@
+/* 
+  File.strings
+  Boxue_roni
+
+  Created by roni on 2020/1/9.
+  Copyright © 2020 roni. All rights reserved.
+*/
+
+// App wide
+CANCEL="Cancel";
+LOADING_DATA="Loading data...";
+LOADING_DATA_FAILED="Data loading failed :(";
+REFRESH="Refresh";
+
+// Welcome screen
+APP_TITLE="4K Screencasts for App Artisan";
+APP_SLOGAN="Modern, priactical app development";
+RIGHTS_INFO="Copyright © 2015-2019 Boxue. All rights reserved.";
+SIGNIN="Sign In";
+BROWSE_NOW="Browse Videos";
+
+// SignIn screen
+WELCOME_LABEL="Welcome Back!";
+EMAIL="Email";
+PASSWORD="Password";
+CONTACT_US="Contact Us";
+RESET_PASSWORD="Reset Password";
+SIGN_IN_ERROR_TITLE="Sign in failed";
+SIGN_IN_ERROR_DESC="Oops! We couldn't verify your credentials.\nPlease try again.";
+
+// Request notification screen
+REQ_NOTI_TITLE="Enable Notification";
+REQ_NOTI_DESC="Want us to notifiy you with our updates?";
+REQ_NOTI_CONFIRM="YES! Turn on";
+REQ_NOTI_NOTNOW="Not now";
+
+// Reset password
+RESET_PASSWORD_BTN="Send password reset link";
+RESET_PASSWORD_SLOGAN="We will send the password reset link to the email you registered with Boxue";
+RESET_PASSWORD_EMAIL_NOT_EXIST="We can't find a user with that email address.\nContact us by QQ:2085489246 if necessary.";
+RESET_PASSWORD_ERROR_TITLE="Oh snap!";
+RESET_PASSWORD_ERROR_DESC="An error has occured while sending the reset email. Please try again later.";
+RESET_PASSWORD_SUCCESS_TITLE="Success!";
+RESET_PASSWORD_SUCCESS_DESC="We have successfully send you the reset email.";
+RESET_PASSWORD_RE_LOGIN="Back to login";
+
+// Contact us
+CONTACT_US_EMAIL="Email:";
+CONTACT_US_TITLE="Title:";
+CONTACT_US_SEND="Send";
+CONTACT_US_SUCCESS_TITLE="Success!";
+CONTACT_US_SUCCESS_DESC="We have received your message and will give you a reply if necessary.";
+CONTACT_US_ERROR_TITLE="Oh snap!";
+CONTACT_US_ERROR_DESC="An error has occured while sending the message. Please try again later.";
+
+// Home
+HOME_TAB_LABEL="Home";
+RECENT_UPDATE_LABEL="Recent update";
+HISTORY_LABEL="Continue watching";
+FREE_EPISODE_LABEL="Free";
+LEARNING_PATH_LABEL="Learning Path";
+SEE_ALL_LABEL="See all";
+
+// Search
+SEARCH_TAB_LABEL="Search";
+
+// Series
+SERIES_TAB_LABEL="Series";
+
+// Blackboard
+BLACKBOARD_TAB_LABEL="Blackboard";
+
+// Account
+ACCOUNT_TAB_LABEL="Account";
