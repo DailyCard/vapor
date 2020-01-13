@@ -1,0 +1,1585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0F9605E23C6D0D100003D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9605D23C6D0D100003D6E /* AppDelegate.swift */; };
+		E0F9606023C6D0D100003D6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9605F23C6D0D100003D6E /* SceneDelegate.swift */; };
+		E0F9606223C6D0D100003D6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9606123C6D0D100003D6E /* ContentView.swift */; };
+		E0F9606423C6D0D400003D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F9606323C6D0D400003D6E /* Assets.xcassets */; };
+		E0F9606723C6D0D400003D6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F9606623C6D0D400003D6E /* Preview Assets.xcassets */; };
+		E0F9607523C6D0D500003D6E /* Boxue_roniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9607423C6D0D500003D6E /* Boxue_roniTests.swift */; };
+		E0F9608023C6D0D500003D6E /* Boxue_roniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F9607F23C6D0D500003D6E /* Boxue_roniUITests.swift */; };
+		E0F9609B23C6D18900003D6E /* Boxue_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9609223C6D18900003D6E /* Boxue_iOS.framework */; };
+		E0F960A223C6D18900003D6E /* Boxue_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F960A123C6D18900003D6E /* Boxue_iOSTests.swift */; };
+		E0F960A423C6D18900003D6E /* Boxue_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F9609423C6D18900003D6E /* Boxue_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F960A723C6D18900003D6E /* Boxue_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9609223C6D18900003D6E /* Boxue_iOS.framework */; };
+		E0F960A823C6D18900003D6E /* Boxue_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9609223C6D18900003D6E /* Boxue_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F960BE23C6D1B600003D6E /* BoxueUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F960B523C6D1B600003D6E /* BoxueUIKit.framework */; };
+		E0F960C523C6D1B600003D6E /* BoxueUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F960C423C6D1B600003D6E /* BoxueUIKitTests.swift */; };
+		E0F960C723C6D1B600003D6E /* BoxueUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F960B723C6D1B600003D6E /* BoxueUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F960CA23C6D1B600003D6E /* BoxueUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F960B523C6D1B600003D6E /* BoxueUIKit.framework */; };
+		E0F960CB23C6D1B600003D6E /* BoxueUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F960B523C6D1B600003D6E /* BoxueUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F960E023C6D1C700003D6E /* BoxueDataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F960D723C6D1C700003D6E /* BoxueDataKit.framework */; };
+		E0F960E723C6D1C700003D6E /* BoxueDataKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F960E623C6D1C700003D6E /* BoxueDataKitTests.swift */; };
+		E0F960E923C6D1C700003D6E /* BoxueDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E0F960D923C6D1C700003D6E /* BoxueDataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F960EC23C6D1C700003D6E /* BoxueDataKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F960D723C6D1C700003D6E /* BoxueDataKit.framework */; };
+		E0F960ED23C6D1C700003D6E /* BoxueDataKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F960D723C6D1C700003D6E /* BoxueDataKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F960F523C6D2B200003D6E /* BxLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F960F423C6D2B200003D6E /* BxLaunchScreen.storyboard */; };
+		E0F960FD23C6D86D00003D6E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0F960FF23C6D86D00003D6E /* Localizable.strings */; };
+		E0F9610223C6D9E200003D6E /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E0F9610123C6D9E200003D6E /* Cartfile */; };
+		E0F9610923C6DD2100003D6E /* KeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610523C6DD2100003D6E /* KeychainWrapper.framework */; };
+		E0F9610A23C6DD2100003D6E /* KeychainWrapper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610523C6DD2100003D6E /* KeychainWrapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9610B23C6DD2100003D6E /* BXAnimatedTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610623C6DD2100003D6E /* BXAnimatedTabBar.framework */; };
+		E0F9610D23C6DD2100003D6E /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610723C6DD2100003D6E /* CryptoSwift.framework */; };
+		E0F9610E23C6DD2100003D6E /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610723C6DD2100003D6E /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9610F23C6DD2100003D6E /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610823C6DD2100003D6E /* Kingfisher.framework */; };
+		E0F9611023C6DD2100003D6E /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610823C6DD2100003D6E /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9611223C6E12D00003D6E /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610723C6DD2100003D6E /* CryptoSwift.framework */; };
+		E0F9611323C6E12D00003D6E /* KeychainWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610523C6DD2100003D6E /* KeychainWrapper.framework */; };
+		E0F9611423C6E12D00003D6E /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9610823C6DD2100003D6E /* Kingfisher.framework */; };
+		E0F9611D23C6E12D00003D6E /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611523C6E12D00003D6E /* RxBlocking.framework */; };
+		E0F9611E23C6E12D00003D6E /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611523C6E12D00003D6E /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9611F23C6E12D00003D6E /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611623C6E12D00003D6E /* PromiseKit.framework */; };
+		E0F9612023C6E12D00003D6E /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611623C6E12D00003D6E /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9612123C6E12D00003D6E /* SwiftRSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611723C6E12D00003D6E /* SwiftRSA.framework */; };
+		E0F9612223C6E12D00003D6E /* SwiftRSA.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611723C6E12D00003D6E /* SwiftRSA.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9612323C6E12D00003D6E /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611823C6E12D00003D6E /* RxSwift.framework */; };
+		E0F9612423C6E12D00003D6E /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611823C6E12D00003D6E /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9612723C6E12D00003D6E /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611A23C6E12D00003D6E /* RxCocoa.framework */; };
+		E0F9612823C6E12D00003D6E /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611A23C6E12D00003D6E /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9612923C6E12D00003D6E /* KingfisherSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611B23C6E12D00003D6E /* KingfisherSwiftUI.framework */; };
+		E0F9612A23C6E12D00003D6E /* KingfisherSwiftUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611B23C6E12D00003D6E /* KingfisherSwiftUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F9612B23C6E12D00003D6E /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611C23C6E12D00003D6E /* RxRelay.framework */; };
+		E0F9612C23C6E12E00003D6E /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9611C23C6E12D00003D6E /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0F9607123C6D0D500003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F9605923C6D0D100003D6E;
+			remoteInfo = Boxue_roni;
+		};
+		E0F9607C23C6D0D500003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F9605923C6D0D100003D6E;
+			remoteInfo = Boxue_roni;
+		};
+		E0F9609C23C6D18900003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F9609123C6D18900003D6E;
+			remoteInfo = Boxue_iOS;
+		};
+		E0F9609E23C6D18900003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F9605923C6D0D100003D6E;
+			remoteInfo = Boxue_roni;
+		};
+		E0F960A523C6D18900003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F9609123C6D18900003D6E;
+			remoteInfo = Boxue_iOS;
+		};
+		E0F960BF23C6D1B600003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F960B423C6D1B600003D6E;
+			remoteInfo = BoxueUIKit;
+		};
+		E0F960C123C6D1B600003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F9605923C6D0D100003D6E;
+			remoteInfo = Boxue_roni;
+		};
+		E0F960C823C6D1B600003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F960B423C6D1B600003D6E;
+			remoteInfo = BoxueUIKit;
+		};
+		E0F960E123C6D1C700003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F960D623C6D1C700003D6E;
+			remoteInfo = BoxueDataKit;
+		};
+		E0F960E323C6D1C700003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F9605923C6D0D100003D6E;
+			remoteInfo = Boxue_roni;
+		};
+		E0F960EA23C6D1C700003D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F9605223C6D0D100003D6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0F960D623C6D1C700003D6E;
+			remoteInfo = BoxueDataKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0F960AC23C6D18900003D6E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E0F960A823C6D18900003D6E /* Boxue_iOS.framework in Embed Frameworks */,
+				E0F9611023C6DD2100003D6E /* Kingfisher.framework in Embed Frameworks */,
+				E0F9612823C6E12D00003D6E /* RxCocoa.framework in Embed Frameworks */,
+				E0F9612A23C6E12D00003D6E /* KingfisherSwiftUI.framework in Embed Frameworks */,
+				E0F960ED23C6D1C700003D6E /* BoxueDataKit.framework in Embed Frameworks */,
+				E0F9612023C6E12D00003D6E /* PromiseKit.framework in Embed Frameworks */,
+				E0F9611E23C6E12D00003D6E /* RxBlocking.framework in Embed Frameworks */,
+				E0F9610A23C6DD2100003D6E /* KeychainWrapper.framework in Embed Frameworks */,
+				E0F9612423C6E12D00003D6E /* RxSwift.framework in Embed Frameworks */,
+				E0F9610E23C6DD2100003D6E /* CryptoSwift.framework in Embed Frameworks */,
+				E0F960CB23C6D1B600003D6E /* BoxueUIKit.framework in Embed Frameworks */,
+				E0F9612223C6E12D00003D6E /* SwiftRSA.framework in Embed Frameworks */,
+				E0F9612C23C6E12E00003D6E /* RxRelay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E0F9605A23C6D0D100003D6E /* R泊学.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R泊学.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F9605D23C6D0D100003D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0F9605F23C6D0D100003D6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0F9606123C6D0D100003D6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0F9606323C6D0D400003D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0F9606623C6D0D400003D6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0F9606B23C6D0D400003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F9607023C6D0D500003D6E /* Boxue_roniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Boxue_roniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F9607423C6D0D500003D6E /* Boxue_roniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boxue_roniTests.swift; sourceTree = "<group>"; };
+		E0F9607623C6D0D500003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F9607B23C6D0D500003D6E /* Boxue_roniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Boxue_roniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F9607F23C6D0D500003D6E /* Boxue_roniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boxue_roniUITests.swift; sourceTree = "<group>"; };
+		E0F9608123C6D0D500003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F9609223C6D18900003D6E /* Boxue_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Boxue_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F9609423C6D18900003D6E /* Boxue_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boxue_iOS.h; sourceTree = "<group>"; };
+		E0F9609523C6D18900003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F9609A23C6D18900003D6E /* Boxue_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Boxue_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F960A123C6D18900003D6E /* Boxue_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boxue_iOSTests.swift; sourceTree = "<group>"; };
+		E0F960A323C6D18900003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F960B523C6D1B600003D6E /* BoxueUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoxueUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F960B723C6D1B600003D6E /* BoxueUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxueUIKit.h; sourceTree = "<group>"; };
+		E0F960B823C6D1B600003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F960BD23C6D1B600003D6E /* BoxueUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxueUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F960C423C6D1B600003D6E /* BoxueUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxueUIKitTests.swift; sourceTree = "<group>"; };
+		E0F960C623C6D1B600003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F960D723C6D1C700003D6E /* BoxueDataKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoxueDataKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F960D923C6D1C700003D6E /* BoxueDataKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxueDataKit.h; sourceTree = "<group>"; };
+		E0F960DA23C6D1C700003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F960DF23C6D1C700003D6E /* BoxueDataKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxueDataKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F960E623C6D1C700003D6E /* BoxueDataKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxueDataKitTests.swift; sourceTree = "<group>"; };
+		E0F960E823C6D1C700003D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F960F423C6D2B200003D6E /* BxLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BxLaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0F960FE23C6D86D00003D6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E0F9610023C6D87300003D6E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E0F9610123C6D9E200003D6E /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E0F9610523C6DD2100003D6E /* KeychainWrapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainWrapper.framework; path = Carthage/Build/iOS/KeychainWrapper.framework; sourceTree = "<group>"; };
+		E0F9610623C6DD2100003D6E /* BXAnimatedTabBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BXAnimatedTabBar.framework; path = Carthage/Build/iOS/BXAnimatedTabBar.framework; sourceTree = "<group>"; };
+		E0F9610723C6DD2100003D6E /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		E0F9610823C6DD2100003D6E /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		E0F9611523C6E12D00003D6E /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		E0F9611623C6E12D00003D6E /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		E0F9611723C6E12D00003D6E /* SwiftRSA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftRSA.framework; path = Carthage/Build/iOS/SwiftRSA.framework; sourceTree = "<group>"; };
+		E0F9611823C6E12D00003D6E /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E0F9611923C6E12D00003D6E /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		E0F9611A23C6E12D00003D6E /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		E0F9611B23C6E12D00003D6E /* KingfisherSwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KingfisherSwiftUI.framework; path = Carthage/Build/iOS/KingfisherSwiftUI.framework; sourceTree = "<group>"; };
+		E0F9611C23C6E12D00003D6E /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0F9605723C6D0D100003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960A723C6D18900003D6E /* Boxue_iOS.framework in Frameworks */,
+				E0F9610F23C6DD2100003D6E /* Kingfisher.framework in Frameworks */,
+				E0F960EC23C6D1C700003D6E /* BoxueDataKit.framework in Frameworks */,
+				E0F9611223C6E12D00003D6E /* CryptoSwift.framework in Frameworks */,
+				E0F9611323C6E12D00003D6E /* KeychainWrapper.framework in Frameworks */,
+				E0F9612323C6E12D00003D6E /* RxSwift.framework in Frameworks */,
+				E0F9610923C6DD2100003D6E /* KeychainWrapper.framework in Frameworks */,
+				E0F9612723C6E12D00003D6E /* RxCocoa.framework in Frameworks */,
+				E0F9610D23C6DD2100003D6E /* CryptoSwift.framework in Frameworks */,
+				E0F9612123C6E12D00003D6E /* SwiftRSA.framework in Frameworks */,
+				E0F960CA23C6D1B600003D6E /* BoxueUIKit.framework in Frameworks */,
+				E0F9610B23C6DD2100003D6E /* BXAnimatedTabBar.framework in Frameworks */,
+				E0F9611F23C6E12D00003D6E /* PromiseKit.framework in Frameworks */,
+				E0F9611423C6E12D00003D6E /* Kingfisher.framework in Frameworks */,
+				E0F9612923C6E12D00003D6E /* KingfisherSwiftUI.framework in Frameworks */,
+				E0F9611D23C6E12D00003D6E /* RxBlocking.framework in Frameworks */,
+				E0F9612B23C6E12D00003D6E /* RxRelay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9606D23C6D0D500003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9607823C6D0D500003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9608F23C6D18900003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9609723C6D18900003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F9609B23C6D18900003D6E /* Boxue_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960B223C6D1B600003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960BA23C6D1B600003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960BE23C6D1B600003D6E /* BoxueUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960D423C6D1C700003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960DC23C6D1C700003D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960E023C6D1C700003D6E /* BoxueDataKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0F9605123C6D0D100003D6E = {
+			isa = PBXGroup;
+			children = (
+				E0F9610123C6D9E200003D6E /* Cartfile */,
+				E0F9605C23C6D0D100003D6E /* Boxue_roni */,
+				E0F9609323C6D18900003D6E /* Boxue_iOS */,
+				E0F960B623C6D1B600003D6E /* BoxueUIKit */,
+				E0F960D823C6D1C700003D6E /* BoxueDataKit */,
+				E0F9607323C6D0D500003D6E /* Boxue_roniTests */,
+				E0F9607E23C6D0D500003D6E /* Boxue_roniUITests */,
+				E0F960A023C6D18900003D6E /* Boxue_iOSTests */,
+				E0F960C323C6D1B600003D6E /* BoxueUIKitTests */,
+				E0F960E523C6D1C700003D6E /* BoxueDataKitTests */,
+				E0F9605B23C6D0D100003D6E /* Products */,
+				E0F9610423C6DD2100003D6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0F9605B23C6D0D100003D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9605A23C6D0D100003D6E /* R泊学.app */,
+				E0F9607023C6D0D500003D6E /* Boxue_roniTests.xctest */,
+				E0F9607B23C6D0D500003D6E /* Boxue_roniUITests.xctest */,
+				E0F9609223C6D18900003D6E /* Boxue_iOS.framework */,
+				E0F9609A23C6D18900003D6E /* Boxue_iOSTests.xctest */,
+				E0F960B523C6D1B600003D6E /* BoxueUIKit.framework */,
+				E0F960BD23C6D1B600003D6E /* BoxueUIKitTests.xctest */,
+				E0F960D723C6D1C700003D6E /* BoxueDataKit.framework */,
+				E0F960DF23C6D1C700003D6E /* BoxueDataKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0F9605C23C6D0D100003D6E /* Boxue_roni */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9605D23C6D0D100003D6E /* AppDelegate.swift */,
+				E0F9605F23C6D0D100003D6E /* SceneDelegate.swift */,
+				E0F9606123C6D0D100003D6E /* ContentView.swift */,
+				E0F9606323C6D0D400003D6E /* Assets.xcassets */,
+				E0F9606B23C6D0D400003D6E /* Info.plist */,
+				E0F960F423C6D2B200003D6E /* BxLaunchScreen.storyboard */,
+				E0F960FF23C6D86D00003D6E /* Localizable.strings */,
+				E0F9606523C6D0D400003D6E /* Preview Content */,
+			);
+			path = Boxue_roni;
+			sourceTree = "<group>";
+		};
+		E0F9606523C6D0D400003D6E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9606623C6D0D400003D6E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0F9607323C6D0D500003D6E /* Boxue_roniTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9607423C6D0D500003D6E /* Boxue_roniTests.swift */,
+				E0F9607623C6D0D500003D6E /* Info.plist */,
+			);
+			path = Boxue_roniTests;
+			sourceTree = "<group>";
+		};
+		E0F9607E23C6D0D500003D6E /* Boxue_roniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9607F23C6D0D500003D6E /* Boxue_roniUITests.swift */,
+				E0F9608123C6D0D500003D6E /* Info.plist */,
+			);
+			path = Boxue_roniUITests;
+			sourceTree = "<group>";
+		};
+		E0F9609323C6D18900003D6E /* Boxue_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9609423C6D18900003D6E /* Boxue_iOS.h */,
+				E0F9609523C6D18900003D6E /* Info.plist */,
+			);
+			path = Boxue_iOS;
+			sourceTree = "<group>";
+		};
+		E0F960A023C6D18900003D6E /* Boxue_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0F960A123C6D18900003D6E /* Boxue_iOSTests.swift */,
+				E0F960A323C6D18900003D6E /* Info.plist */,
+			);
+			path = Boxue_iOSTests;
+			sourceTree = "<group>";
+		};
+		E0F960B623C6D1B600003D6E /* BoxueUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E0F960B723C6D1B600003D6E /* BoxueUIKit.h */,
+				E0F960B823C6D1B600003D6E /* Info.plist */,
+			);
+			path = BoxueUIKit;
+			sourceTree = "<group>";
+		};
+		E0F960C323C6D1B600003D6E /* BoxueUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0F960C423C6D1B600003D6E /* BoxueUIKitTests.swift */,
+				E0F960C623C6D1B600003D6E /* Info.plist */,
+			);
+			path = BoxueUIKitTests;
+			sourceTree = "<group>";
+		};
+		E0F960D823C6D1C700003D6E /* BoxueDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				E0F960D923C6D1C700003D6E /* BoxueDataKit.h */,
+				E0F960DA23C6D1C700003D6E /* Info.plist */,
+			);
+			path = BoxueDataKit;
+			sourceTree = "<group>";
+		};
+		E0F960E523C6D1C700003D6E /* BoxueDataKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0F960E623C6D1C700003D6E /* BoxueDataKitTests.swift */,
+				E0F960E823C6D1C700003D6E /* Info.plist */,
+			);
+			path = BoxueDataKitTests;
+			sourceTree = "<group>";
+		};
+		E0F9610423C6DD2100003D6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F9611B23C6E12D00003D6E /* KingfisherSwiftUI.framework */,
+				E0F9611623C6E12D00003D6E /* PromiseKit.framework */,
+				E0F9611523C6E12D00003D6E /* RxBlocking.framework */,
+				E0F9611A23C6E12D00003D6E /* RxCocoa.framework */,
+				E0F9611C23C6E12D00003D6E /* RxRelay.framework */,
+				E0F9611823C6E12D00003D6E /* RxSwift.framework */,
+				E0F9611923C6E12D00003D6E /* RxTest.framework */,
+				E0F9611723C6E12D00003D6E /* SwiftRSA.framework */,
+				E0F9610623C6DD2100003D6E /* BXAnimatedTabBar.framework */,
+				E0F9610723C6DD2100003D6E /* CryptoSwift.framework */,
+				E0F9610523C6DD2100003D6E /* KeychainWrapper.framework */,
+				E0F9610823C6DD2100003D6E /* Kingfisher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E0F9608D23C6D18900003D6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960A423C6D18900003D6E /* Boxue_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960B023C6D1B600003D6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960C723C6D1B600003D6E /* BoxueUIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960D223C6D1C700003D6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960E923C6D1C700003D6E /* BoxueDataKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E0F9605923C6D0D100003D6E /* Boxue_roni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F9608423C6D0D500003D6E /* Build configuration list for PBXNativeTarget "Boxue_roni" */;
+			buildPhases = (
+				E0F9605623C6D0D100003D6E /* Sources */,
+				E0F9605723C6D0D100003D6E /* Frameworks */,
+				E0F9605823C6D0D100003D6E /* Resources */,
+				E0F960AC23C6D18900003D6E /* Embed Frameworks */,
+				E0F9610323C6DBFD00003D6E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F960A623C6D18900003D6E /* PBXTargetDependency */,
+				E0F960C923C6D1B600003D6E /* PBXTargetDependency */,
+				E0F960EB23C6D1C700003D6E /* PBXTargetDependency */,
+			);
+			name = Boxue_roni;
+			productName = Boxue_roni;
+			productReference = E0F9605A23C6D0D100003D6E /* R泊学.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0F9606F23C6D0D500003D6E /* Boxue_roniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F9608723C6D0D500003D6E /* Build configuration list for PBXNativeTarget "Boxue_roniTests" */;
+			buildPhases = (
+				E0F9606C23C6D0D500003D6E /* Sources */,
+				E0F9606D23C6D0D500003D6E /* Frameworks */,
+				E0F9606E23C6D0D500003D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F9607223C6D0D500003D6E /* PBXTargetDependency */,
+			);
+			name = Boxue_roniTests;
+			productName = Boxue_roniTests;
+			productReference = E0F9607023C6D0D500003D6E /* Boxue_roniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0F9607A23C6D0D500003D6E /* Boxue_roniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F9608A23C6D0D500003D6E /* Build configuration list for PBXNativeTarget "Boxue_roniUITests" */;
+			buildPhases = (
+				E0F9607723C6D0D500003D6E /* Sources */,
+				E0F9607823C6D0D500003D6E /* Frameworks */,
+				E0F9607923C6D0D500003D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F9607D23C6D0D500003D6E /* PBXTargetDependency */,
+			);
+			name = Boxue_roniUITests;
+			productName = Boxue_roniUITests;
+			productReference = E0F9607B23C6D0D500003D6E /* Boxue_roniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E0F9609123C6D18900003D6E /* Boxue_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F960A923C6D18900003D6E /* Build configuration list for PBXNativeTarget "Boxue_iOS" */;
+			buildPhases = (
+				E0F9608D23C6D18900003D6E /* Headers */,
+				E0F9608E23C6D18900003D6E /* Sources */,
+				E0F9608F23C6D18900003D6E /* Frameworks */,
+				E0F9609023C6D18900003D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boxue_iOS;
+			productName = Boxue_iOS;
+			productReference = E0F9609223C6D18900003D6E /* Boxue_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0F9609923C6D18900003D6E /* Boxue_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F960AD23C6D18900003D6E /* Build configuration list for PBXNativeTarget "Boxue_iOSTests" */;
+			buildPhases = (
+				E0F9609623C6D18900003D6E /* Sources */,
+				E0F9609723C6D18900003D6E /* Frameworks */,
+				E0F9609823C6D18900003D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F9609D23C6D18900003D6E /* PBXTargetDependency */,
+				E0F9609F23C6D18900003D6E /* PBXTargetDependency */,
+			);
+			name = Boxue_iOSTests;
+			productName = Boxue_iOSTests;
+			productReference = E0F9609A23C6D18900003D6E /* Boxue_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0F960B423C6D1B600003D6E /* BoxueUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F960CC23C6D1B600003D6E /* Build configuration list for PBXNativeTarget "BoxueUIKit" */;
+			buildPhases = (
+				E0F960B023C6D1B600003D6E /* Headers */,
+				E0F960B123C6D1B600003D6E /* Sources */,
+				E0F960B223C6D1B600003D6E /* Frameworks */,
+				E0F960B323C6D1B600003D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxueUIKit;
+			productName = BoxueUIKit;
+			productReference = E0F960B523C6D1B600003D6E /* BoxueUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0F960BC23C6D1B600003D6E /* BoxueUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F960CF23C6D1B600003D6E /* Build configuration list for PBXNativeTarget "BoxueUIKitTests" */;
+			buildPhases = (
+				E0F960B923C6D1B600003D6E /* Sources */,
+				E0F960BA23C6D1B600003D6E /* Frameworks */,
+				E0F960BB23C6D1B600003D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F960C023C6D1B600003D6E /* PBXTargetDependency */,
+				E0F960C223C6D1B600003D6E /* PBXTargetDependency */,
+			);
+			name = BoxueUIKitTests;
+			productName = BoxueUIKitTests;
+			productReference = E0F960BD23C6D1B600003D6E /* BoxueUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0F960D623C6D1C700003D6E /* BoxueDataKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F960EE23C6D1C700003D6E /* Build configuration list for PBXNativeTarget "BoxueDataKit" */;
+			buildPhases = (
+				E0F960D223C6D1C700003D6E /* Headers */,
+				E0F960D323C6D1C700003D6E /* Sources */,
+				E0F960D423C6D1C700003D6E /* Frameworks */,
+				E0F960D523C6D1C700003D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxueDataKit;
+			productName = BoxueDataKit;
+			productReference = E0F960D723C6D1C700003D6E /* BoxueDataKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0F960DE23C6D1C700003D6E /* BoxueDataKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F960F123C6D1C700003D6E /* Build configuration list for PBXNativeTarget "BoxueDataKitTests" */;
+			buildPhases = (
+				E0F960DB23C6D1C700003D6E /* Sources */,
+				E0F960DC23C6D1C700003D6E /* Frameworks */,
+				E0F960DD23C6D1C700003D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F960E223C6D1C700003D6E /* PBXTargetDependency */,
+				E0F960E423C6D1C700003D6E /* PBXTargetDependency */,
+			);
+			name = BoxueDataKitTests;
+			productName = BoxueDataKitTests;
+			productReference = E0F960DF23C6D1C700003D6E /* BoxueDataKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0F9605223C6D0D100003D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = roni;
+				TargetAttributes = {
+					E0F9605923C6D0D100003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E0F9606F23C6D0D500003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E0F9605923C6D0D100003D6E;
+					};
+					E0F9607A23C6D0D500003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E0F9605923C6D0D100003D6E;
+					};
+					E0F9609123C6D18900003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E0F9609923C6D18900003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E0F9605923C6D0D100003D6E;
+					};
+					E0F960B423C6D1B600003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E0F960BC23C6D1B600003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E0F9605923C6D0D100003D6E;
+					};
+					E0F960D623C6D1C700003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E0F960DE23C6D1C700003D6E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E0F9605923C6D0D100003D6E;
+					};
+				};
+			};
+			buildConfigurationList = E0F9605523C6D0D100003D6E /* Build configuration list for PBXProject "Boxue_roni" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = E0F9605123C6D0D100003D6E;
+			productRefGroup = E0F9605B23C6D0D100003D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0F9605923C6D0D100003D6E /* Boxue_roni */,
+				E0F9609123C6D18900003D6E /* Boxue_iOS */,
+				E0F960B423C6D1B600003D6E /* BoxueUIKit */,
+				E0F960D623C6D1C700003D6E /* BoxueDataKit */,
+				E0F9606F23C6D0D500003D6E /* Boxue_roniTests */,
+				E0F9607A23C6D0D500003D6E /* Boxue_roniUITests */,
+				E0F9609923C6D18900003D6E /* Boxue_iOSTests */,
+				E0F960BC23C6D1B600003D6E /* BoxueUIKitTests */,
+				E0F960DE23C6D1C700003D6E /* BoxueDataKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0F9605823C6D0D100003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F9610223C6D9E200003D6E /* Cartfile in Resources */,
+				E0F960FD23C6D86D00003D6E /* Localizable.strings in Resources */,
+				E0F9606723C6D0D400003D6E /* Preview Assets.xcassets in Resources */,
+				E0F960F523C6D2B200003D6E /* BxLaunchScreen.storyboard in Resources */,
+				E0F9606423C6D0D400003D6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9606E23C6D0D500003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9607923C6D0D500003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9609023C6D18900003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9609823C6D18900003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960B323C6D1B600003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960BB23C6D1B600003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960D523C6D1C700003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960DD23C6D1C700003D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0F9610323C6DBFD00003D6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0F9605623C6D0D100003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F9605E23C6D0D100003D6E /* AppDelegate.swift in Sources */,
+				E0F9606023C6D0D100003D6E /* SceneDelegate.swift in Sources */,
+				E0F9606223C6D0D100003D6E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9606C23C6D0D500003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F9607523C6D0D500003D6E /* Boxue_roniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9607723C6D0D500003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F9608023C6D0D500003D6E /* Boxue_roniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9608E23C6D18900003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F9609623C6D18900003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960A223C6D18900003D6E /* Boxue_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960B123C6D1B600003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960B923C6D1B600003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960C523C6D1B600003D6E /* BoxueUIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960D323C6D1C700003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0F960DB23C6D1C700003D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F960E723C6D1C700003D6E /* BoxueDataKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0F9607223C6D0D500003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F9605923C6D0D100003D6E /* Boxue_roni */;
+			targetProxy = E0F9607123C6D0D500003D6E /* PBXContainerItemProxy */;
+		};
+		E0F9607D23C6D0D500003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F9605923C6D0D100003D6E /* Boxue_roni */;
+			targetProxy = E0F9607C23C6D0D500003D6E /* PBXContainerItemProxy */;
+		};
+		E0F9609D23C6D18900003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F9609123C6D18900003D6E /* Boxue_iOS */;
+			targetProxy = E0F9609C23C6D18900003D6E /* PBXContainerItemProxy */;
+		};
+		E0F9609F23C6D18900003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F9605923C6D0D100003D6E /* Boxue_roni */;
+			targetProxy = E0F9609E23C6D18900003D6E /* PBXContainerItemProxy */;
+		};
+		E0F960A623C6D18900003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F9609123C6D18900003D6E /* Boxue_iOS */;
+			targetProxy = E0F960A523C6D18900003D6E /* PBXContainerItemProxy */;
+		};
+		E0F960C023C6D1B600003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F960B423C6D1B600003D6E /* BoxueUIKit */;
+			targetProxy = E0F960BF23C6D1B600003D6E /* PBXContainerItemProxy */;
+		};
+		E0F960C223C6D1B600003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F9605923C6D0D100003D6E /* Boxue_roni */;
+			targetProxy = E0F960C123C6D1B600003D6E /* PBXContainerItemProxy */;
+		};
+		E0F960C923C6D1B600003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F960B423C6D1B600003D6E /* BoxueUIKit */;
+			targetProxy = E0F960C823C6D1B600003D6E /* PBXContainerItemProxy */;
+		};
+		E0F960E223C6D1C700003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F960D623C6D1C700003D6E /* BoxueDataKit */;
+			targetProxy = E0F960E123C6D1C700003D6E /* PBXContainerItemProxy */;
+		};
+		E0F960E423C6D1C700003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F9605923C6D0D100003D6E /* Boxue_roni */;
+			targetProxy = E0F960E323C6D1C700003D6E /* PBXContainerItemProxy */;
+		};
+		E0F960EB23C6D1C700003D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0F960D623C6D1C700003D6E /* BoxueDataKit */;
+			targetProxy = E0F960EA23C6D1C700003D6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0F960FF23C6D86D00003D6E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0F960FE23C6D86D00003D6E /* en */,
+				E0F9610023C6D87300003D6E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0F9608223C6D0D500003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0F9608323C6D0D500003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0F9608523C6D0D500003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Boxue_roni/Preview Content\"";
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Boxue_roni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-roni";
+				PRODUCT_NAME = "R泊学";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0F9608623C6D0D500003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Boxue_roni/Preview Content\"";
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Boxue_roni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-roni";
+				PRODUCT_NAME = "R泊学";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0F9608823C6D0D500003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = Boxue_roniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-roniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxue_roni.app/Boxue_roni";
+			};
+			name = Debug;
+		};
+		E0F9608923C6D0D500003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = Boxue_roniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-roniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxue_roni.app/Boxue_roni";
+			};
+			name = Release;
+		};
+		E0F9608B23C6D0D500003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = Boxue_roniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-roniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boxue_roni;
+			};
+			name = Debug;
+		};
+		E0F9608C23C6D0D500003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = Boxue_roniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-roniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Boxue_roni;
+			};
+			name = Release;
+		};
+		E0F960AA23C6D18900003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Boxue_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0F960AB23C6D18900003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Boxue_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0F960AE23C6D18900003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = Boxue_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxue_roni.app/Boxue_roni";
+			};
+			name = Debug;
+		};
+		E0F960AF23C6D18900003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = Boxue_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.roni.demo.Boxue-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxue_roni.app/Boxue_roni";
+			};
+			name = Release;
+		};
+		E0F960CD23C6D1B600003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoxueUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.demo.BoxueUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0F960CE23C6D1B600003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoxueUIKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.demo.BoxueUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0F960D023C6D1B600003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = BoxueUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.demo.BoxueUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxue_roni.app/Boxue_roni";
+			};
+			name = Debug;
+		};
+		E0F960D123C6D1B600003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = BoxueUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.demo.BoxueUIKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxue_roni.app/Boxue_roni";
+			};
+			name = Release;
+		};
+		E0F960EF23C6D1C700003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoxueDataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.demo.BoxueDataKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0F960F023C6D1C700003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoxueDataKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.demo.BoxueDataKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0F960F223C6D1C700003D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = BoxueDataKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.demo.BoxueDataKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxue_roni.app/Boxue_roni";
+			};
+			name = Debug;
+		};
+		E0F960F323C6D1C700003D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M58D95D36;
+				INFOPLIST_FILE = BoxueDataKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.roni.demo.BoxueDataKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boxue_roni.app/Boxue_roni";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0F9605523C6D0D100003D6E /* Build configuration list for PBXProject "Boxue_roni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F9608223C6D0D500003D6E /* Debug */,
+				E0F9608323C6D0D500003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F9608423C6D0D500003D6E /* Build configuration list for PBXNativeTarget "Boxue_roni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F9608523C6D0D500003D6E /* Debug */,
+				E0F9608623C6D0D500003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F9608723C6D0D500003D6E /* Build configuration list for PBXNativeTarget "Boxue_roniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F9608823C6D0D500003D6E /* Debug */,
+				E0F9608923C6D0D500003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F9608A23C6D0D500003D6E /* Build configuration list for PBXNativeTarget "Boxue_roniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F9608B23C6D0D500003D6E /* Debug */,
+				E0F9608C23C6D0D500003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F960A923C6D18900003D6E /* Build configuration list for PBXNativeTarget "Boxue_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F960AA23C6D18900003D6E /* Debug */,
+				E0F960AB23C6D18900003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F960AD23C6D18900003D6E /* Build configuration list for PBXNativeTarget "Boxue_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F960AE23C6D18900003D6E /* Debug */,
+				E0F960AF23C6D18900003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F960CC23C6D1B600003D6E /* Build configuration list for PBXNativeTarget "BoxueUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F960CD23C6D1B600003D6E /* Debug */,
+				E0F960CE23C6D1B600003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F960CF23C6D1B600003D6E /* Build configuration list for PBXNativeTarget "BoxueUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F960D023C6D1B600003D6E /* Debug */,
+				E0F960D123C6D1B600003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F960EE23C6D1C700003D6E /* Build configuration list for PBXNativeTarget "BoxueDataKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F960EF23C6D1C700003D6E /* Debug */,
+				E0F960F023C6D1C700003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F960F123C6D1C700003D6E /* Build configuration list for PBXNativeTarget "BoxueDataKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0F960F223C6D1C700003D6E /* Debug */,
+				E0F960F323C6D1C700003D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0F9605223C6D0D100003D6E /* Project object */;
+}

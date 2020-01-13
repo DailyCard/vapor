@@ -1,0 +1,74 @@
+/* 
+  File.strings
+  Boxue_roni
+
+  Created by roni on 2020/1/9.
+  Copyright © 2020 roni. All rights reserved.
+*/
+
+// App wide
+CANCEL="取消";
+LOADING_DATA="正在努力加载数据...";
+LOADING_DATA_FAILED="数据加载失败 :(";
+REFRESH="刷新一下";
+
+// Welcome screen
+APP_TITLE="App工匠的4K视频";
+APP_SLOGAN="左手程序，右手诗";
+RIGHTS_INFO="Copyright © 2015-2019 Boxue. All rights reserved.";
+SIGNIN="登录泊学";
+BROWSE_NOW="随便看看";
+
+// SignIn screen
+WELCOME_LABEL="欢迎回来！";
+EMAIL="电子邮件";
+PASSWORD="登录密码";
+CONTACT_US="联系我们";
+RESET_PASSWORD="重置密码";
+SIGN_IN_ERROR_TITLE="登录失败";
+SIGN_IN_ERROR_DESC="啊喔！使用的登录信息错误，请重试。";
+
+// Request notification screen
+REQ_NOTI_TITLE="要泊学推送通知嘛?";
+REQ_NOTI_DESC="我们会在内容更新的时候告诉你";
+REQ_NOTI_CONFIRM="好吧";
+REQ_NOTI_NOTNOW="暂时不用";
+
+// Reset password
+RESET_PASSWORD_BTN="发送密码重置链接";
+RESET_PASSWORD_SLOGAN="我们将把密码重置链接发送到你注册泊学时使用的邮箱";
+RESET_PASSWORD_EMAIL_NOT_EXIST="我们无法找到对应的泊学账号。\n如需帮助，请联系泊学客服 QQ:2085489246。";
+RESET_PASSWORD_ERROR_TITLE="啊喔！";
+RESET_PASSWORD_ERROR_DESC="我们在发送密码重置邮件时发生了一个错误。请稍后重试。";
+RESET_PASSWORD_SUCCESS_TITLE="发送成功";
+RESET_PASSWORD_SUCCESS_DESC="我们已经将密码重置邮件发送到你的邮箱，请根据邮件中的步骤重置密码。";
+RESET_PASSWORD_RE_LOGIN="重新登录";
+
+// Contact us
+CONTACT_US_EMAIL="电子邮件:";
+CONTACT_US_TITLE="标题:";
+CONTACT_US_SEND="发送";
+CONTACT_US_SUCCESS_TITLE="谢谢你！";
+CONTACT_US_SUCCESS_DESC="我们已经收到你的消息，如需帮助，我们会尽快进行回复。";
+CONTACT_US_ERROR_TITLE="啊喔！";
+CONTACT_US_ERROR_DESC="发送消息时发生了一个错误。请稍后重试。";
+
+// Home
+HOME_TAB_LABEL="首页";
+RECENT_UPDATE_LABEL="最近更新";
+HISTORY_LABEL="继续观看";
+FREE_EPISODE_LABEL="免费视频";
+LEARNING_PATH_LABEL="学习路径";
+SEE_ALL_LABEL="查看全部";
+
+// Search
+SEARCH_TAB_LABEL="搜索";
+
+// Series
+SERIES_TAB_LABEL="视频系列";
+
+// Blackboard
+BLACKBOARD_TAB_LABEL="黑板报";
+
+// Account
+ACCOUNT_TAB_LABEL="我的泊学";
